@@ -1,0 +1,58 @@
+Report Task #1
+
+
+1. Download "The C programming language" 2nd edition book and open it on your computer. 
+-I downloaded "The C programming language 2nd edition book" (pdf version) from "https://epdf.pub/the-c-programming-language-second-edition.html" 
+ and use Adobe Acrobat DC to open the file.
+
+2. Download, install and config Code::Blocks application on your comp to compose and compile programs there.
+-I downloaded, installed and configured Code::Blocks application on my computer to compose and compile programs there.
+ The app is downloaded from "http://www.codeblocks.org/downloads/26" (codeblocks-20.03mingw-setup.exe)
+
+3. To read the beginning of the chapter 1, the section 1.1 and execute exercises.
+-I read the beginning of the chapter 1---the section 1.1 and excecuted the EX 1-1 and Ex 1-2.
+
+
+Recommendations 
+To read on Wiki about:
+
+a) C programming language
+I learnt that C is one of the programming languages like phython, C++ or Java.
+However, it is neither a high level language nor a big one, and is not specialized to 
+any particular area of application. C was originally designed for and implemented on the UNIX operating system by Dennis  Ritchie.
+
+
+b) IDE (Integrated Development Environment)
+I learnt IDE is a software applcation that enables programmers to conslidate the different aspects of writing a computer program.
+IDEs increase programmer productivity by combining common activities of writing software into a single application---editng source code, building excutables, and debugging.
+Basically, IDES makes programming easier and simpler.
+
+c) Code::Blocks
+I learnt Code::Blocks is a free open source, cross platform, C, C++ and Fotran IDE built for everyone to utilize. 
+It offers all the features one needs and also has a consistent look across the platforms. 
+It is also a suitable platform for a beginner like me to start learning programming. 
+
+
+To read all before chapter 1 of the C Programming language book:
+
+Done. It is mainly about what C programming language is, but deeper than the one in WIKI. 
+It also introduced me with what I will learn in the book like Chapter 1 let I see the outlook of the C, whereas Chapter 2 deals with the basic data types, operators and expressions.
+There are 3 appendixes which allow me to refer some terms or definitions.
+
+Overall, C is  a pleasant, expressive, and versatile language for a wide vatiety of programs. 
+So, it is suitable for not just for progamming amatuers, but also for beginners like me.
+
+
+Addition:
+I read setions 1.2-1.3.
+I did exercises 1.3-1.5.
+I learnt about how to program the table of Fahrenheit-Celsius degree conversion.
+I had explored comments, declarations, variables, arithmetic expressions, loops, and formatted output.
+Ex. 1.3-1.5 is challenging as I initially did not know how to use variables, but eventually managed wit aid from watching youtube video and your assistance.
+
+
+
+
+
+31/3/2020
+Naruesorn Dechnorachai 
