@@ -1,0 +1,17 @@
+Report Task #3
+
+
+1. Read sections 1.6 and 1.7.
+Read. I have learnt what is an array used for and also its regulations. 
+Moreover, I learnt to use "else if" statement in section 1.6 as well as functions in section 1.7.
+
+2. Do exercises from these sections.
+Done. I intially had a struggle in comprehending the code in the program given in the section 1.6, 
+especially "++ndigit[c-'o']" part and "ndigit[i} = 0" part, so I spent a week to complete the ex. 1.13.
+Ex.1.14 was somewhat similar to Ex.1.13, just with some modifications. Ex 1.15 was not as complicated as the previous two exercises.
+
+
+19/4/2020
+Naruesorn Dechnorachai
+
+  
