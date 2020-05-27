@@ -1,3 +1,9 @@
+07 task
+1. Read sections 2-2.5
+2. Do exercises from this sections.
+Due date 20200607
+note: current
+
 06 task
 0. To read about Windows Command prompt (cli)
 https://www.computerhope.com/issues/chusedos.htm
