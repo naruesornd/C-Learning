@@ -1,8 +1,14 @@
+08 task
+1. Read sections 2.6-2.8
+2. Do exercises from this sections.
+Due date 20200614
+note:
+
 07 task
 1. Read sections 2-2.5
 2. Do exercises from this sections.
 Due date 20200607
-note: current
+note: current. The first receive 20200604
 
 06 task
 0. To read about Windows Command prompt (cli)
@@ -50,8 +56,9 @@ note: it is not finished to the due date. Finished 2020.04.10
 
 01 task
 1. Download "The C programming language" 2nd edition book and open it on your computer;
-2. Download, install and config Code::Blocks application on your comp to compose and compile programs there;
-3. To read the beginning of the chapter 1, the section 1.1 and execute exercises.
+2. Download "C for Dummies" ( like this or use this cheat sheet https://www.dummies.com/programming/c/beginning-c-programming-for-dummies-cheat-sheet/ )
+3. Download, install and config Code::Blocks application on your comp to compose and compile programs there;
+4. To read the beginning of the chapter 1, the section 1.1 and execute exercises.
 
 Recommendations. To read on wiki about:
 a) C programming language;
