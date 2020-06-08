@@ -1,8 +1,14 @@
+08 task
+1. Read sections 2.6-2.8
+2. Do exercises from this sections.
+Due date 20200614
+note: current
+
 07 task
 1. Read sections 2-2.5
 2. Do exercises from this sections.
 Due date 20200607
-note: current
+note: The first receive 20200604. To check. Checked. Do more.
 
 06 task
 0. To read about Windows Command prompt (cli)
@@ -22,19 +28,19 @@ https://en.wikipedia.org/wiki/Git and here https://git-scm.com/
 7. Read on wikipedia about programming paradigms. This page https://en.wikipedia.org/wiki/Programming_paradigm and other relater.
 Note! Since this task we will exchange reports and tasks by the repo. For every task you will create a branch and a folder in it with a name "task-<task number>". The folder has to contain a report file and other files for the task. When a task is accepted the branch will be merged into the master branch.
 Due date 20200517
-note: current
+note: the first finish is 20200527. To check.
 
 05 task
 1. Read sections 1.10.
 2. Do exercises from this section.
 Due date 20200503
-note: the first received 20200506
+note: the first received 20200506. To check.
 
 04 task
 1. Read sections 1.8 and 1.9.
 2. Do exercises from these sections.
 Due date 20200426
-note: the first received 20200427;
+note: the first received 20200427. To check.
 
 03 task
 1. Read sections 1.6 and 1.7.
@@ -50,14 +56,13 @@ note: it is not finished to the due date. Finished 2020.04.10
 
 01 task
 1. Download "The C programming language" 2nd edition book and open it on your computer;
-2. Download, install and config Code::Blocks application on your comp to compose and compile programs there;
-3. To read the beginning of the chapter 1, the section 1.1 and execute exercises.
-
+2. Download "C for Dummies" ( https://www.dummies.com/programming/c/beginning-c-programming-for-dummies-cheat-sheet/ )
+3. Download, install and config Code::Blocks application on your comp to compose and compile programs there;
+4. To read the beginning of the chapter 1, the section 1.1 and execute exercises.
 Recommendations. To read on wiki about:
 a) C programming language;
 b) IDE (integrated development environment);
 c) Code::Blocks.
 To read all before chapter 1 of the C Progr lang book.
-
 Due date 2020.03.29
 note: Finished in time. The report is finished on 20200402.
