@@ -2,13 +2,13 @@
 1. Read sections 2.6-2.8
 2. Do exercises from this sections.
 Due date 20200614
-note:
+note: current
 
 07 task
 1. Read sections 2-2.5
 2. Do exercises from this sections.
 Due date 20200607
-note: current. The first receive 20200604. To check
+note: The first receive 20200604. To check. Checked. Do more.
 
 06 task
 0. To read about Windows Command prompt (cli)
