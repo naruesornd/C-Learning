@@ -7,6 +7,8 @@
 
 int main()
 {
+    printf("Ranges of Various Floating-point Types from Standard Headers: \n\n");
+
     /* signed data types */
     printf("Signed Data Types\n");
     printf("---------------------------------------------\n");
@@ -16,8 +18,8 @@ int main()
     printf("Maximum short = %d\n", SHRT_MAX);
     printf("Minimum int   = %d\n", INT_MIN);
     printf("Maximum int   = %d\n", INT_MAX);
-    printf("Minimum long  = %d\n", LONG_MIN);
-    printf("Maximum long   = %d\n", LONG_MAX);
+    printf("Minimum long  = %ld\n", LONG_MIN);
+    printf("Maximum long  = %ld\n", LONG_MAX);
     printf("\n");
 
     /*unsigned data types */
@@ -26,7 +28,7 @@ int main()
     printf("Maximum char  = %u\n", UCHAR_MAX);
     printf("Maximum short = %u\n", USHRT_MAX);
     printf("Maximum int   = %u\n", UINT_MAX);
-    printf("Maximum long  = %u\n", ULONG_MAX);
+    printf("Maximum long  = %lu\n", ULONG_MAX);
 }
 
 
