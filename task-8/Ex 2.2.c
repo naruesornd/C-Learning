@@ -42,23 +42,27 @@ int getline(char s[], int lim)
         if (c == EOF)
         {
             lim = 0;
+            // Kovbas. consider to use here break;
         }
         else if (c == '\n')
         {
             lim = 0;
+            // Kovbas. consider to use here break;
         }
         else
         {
             s[i++] = c;
         }
     }
-
+/* Kovbas. I think this block is redundant, because usually a line means symbols fron the line's beginning to end of line symbol, here it is \n
     if (c == '\n')
     {
         s[i] = c;
         ++i;
     }
+*/
     s[i] = '\0';
+
     return i;
 
 }
