@@ -12,13 +12,12 @@ int main()
     int len;            /* current line length */
     char line[MAXLINE]; /* current input line */
 
-    //while ((len = getline(line, MAXLINE)) > 0)
-    while ((len = getline(line, MAXLINE)) > MAXCHAR)
+    while ((len = getline(line, MAXLINE)) > 0)
     {
-        //if (len > MAXCHAR)
-            {
-               printf("Line Contents: %s", line);
-            }
+        if (len > MAXCHAR)
+        {
+        	printf("Line Contents: %s", line);
+        }
     }
     return 0;
 }
