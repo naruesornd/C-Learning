@@ -11,7 +11,7 @@ char line[MAXLINE]; /* current input line */
 int getline(void);
 
 int main()
-{ 
+{
   int c;          /* character */
   int comment;   /* comment */
   int quote;     /* quotation marks  */

@@ -44,9 +44,7 @@ int getline(char s[], int lim)
 /* removetrial: to remove trailing blanks and tabs from the character string s[] */
 int removetrial(char s[])
 {
-    int i;
-
-    i = 0;
+    int i = 0;
 
     while ( s[i] != '\n')   /* find newline character */
     {

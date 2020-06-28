@@ -40,7 +40,7 @@ note: the first received 20200506. To check.
 1. Read sections 1.8 and 1.9.
 2. Do exercises from these sections.
 Due date 20200426
-note: the first received 20200427. To check.
+note: the first received 20200427. To check. 20200627 accepted.
 
 03 task
 1. Read sections 1.6 and 1.7.

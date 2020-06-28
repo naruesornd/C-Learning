@@ -1,6 +1,6 @@
-/* Ex 1.22: Write a program to "fold" long input lines into two or more shorter lines 
-after the last non-blank character that occues befire the n-th column of input. 
-Make sure your progeam does something intelligent with very long lines, 
+/* Ex 1.22: Write a program to "fold" long input lines into two or more shorter lines
+after the last non-blank character that occues befire the n-th column of input.
+Make sure your progeam does something intelligent with very long lines,
 and if there are no blanks or tabs before the specified column. */
 
 #include <stdio.h>
@@ -10,51 +10,46 @@ and if there are no blanks or tabs before the specified column. */
 
 char line[MAXLINE]; /*current input line*/
 
-int getline(void);  
+int getline(void);
 
 int main()
 {
-  int b;   /* variable for blanks */
-  int len; /* current line length */
-  int pos; /* position of characters in line */
-  int spaceholder;
+	int len; /* current line length */
 
-  while (( len = getline()) > 0 )
-    {
-      if( len < FOLDLENGTH )
+	while (( len = getline()) > 0 )
 	{
-	    /* do nothing */
-	}
-     /* if the line is very long,
-        then we loop through
-        to replace a space nearest to the fold area
-        with a newline. */
-	else
-	{
-
-	  b = 0;
-	  pos = 0;
-
-	  while(b < len)
-	    {
-	      if(line[b] == ' ')
-		spaceholder = b;
-
-	      if(pos == FOLDLENGTH)
+  		if( len >= FOLDLENGTH )
+		//{
+		    /* do nothing */
+		//}
+	     /* if the line is very long,
+	        then we loop through
+	        to replace a space nearest to the fold area
+	        with a newline. */
+		//else
 		{
-		  line[spaceholder] = '\n';
-		  pos = 0;  /* reset position */
-		}
-	      pos++;
-	      b++;
-	    }
-	}
-      printf("\n");  /* to separate Fold version from the inputs */
-      printf("Fold version: %s", line);
-    }
-  return 0;
-}
+			int b = 0;   /* variable for blanks */
+			int pos = 0; /* position of characters in line */
 
+		 	while(b < len)
+		  	{
+		  		if(line[b] == ' ');
+				int spaceholder = b;
+
+		    	if(pos == FOLDLENGTH)
+				{
+					line[spaceholder] = '\n';
+					pos = 0;  /* reset position */
+				}
+		    	pos++;
+		    	b++;
+		  	}
+		}
+    	printf("\n");  /* to separate Fold version from the inputs */
+    	printf("Fold version: \"%s\"", line);
+  	}
+  	return 0;
+}
 
 /* getline:  reads a line, return line length */
 int getline(void)

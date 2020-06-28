@@ -38,15 +38,15 @@ int getline(char s[], int lim)
 /* detab: replaces tabs with blanks */
 int detab(char to[], char from[])
 {
-    int i, j, n;
+    int i, j;
 
-    i = j = n = 0;
+    i = j = 0;
 
     while ((to[j] = from[i]) != '\0')
     {
         if (to[j] == '\t')
         {
-              for (n = 0; n < TABWIDTH; ++n, ++j)
+              for (int n = 0; n < TABWIDTH; ++n, ++j)
                 to[j] = ' ';
         }
         else
