@@ -1,14 +1,20 @@
+09 task
+1. Read sections 2.9-2.10
+2. Do exercises from these sections.
+Due date 20200719
+note:
+
 08 task
 1. Read sections 2.6-2.8
 2. Do exercises from these sections.
 Due date 20200614
-note: current
+note: current, first date 20200624, to check
 
 07 task
 1. Read sections 2-2.5
 2. Do exercises from these sections.
 Due date 20200607
-note: The first receive 20200604. To check. Checked. Do more.
+note: The first receive 20200604. To check. Checked. Do more. Under fixing.
 
 06 task
 0. To read about Windows Command prompt (cli)
