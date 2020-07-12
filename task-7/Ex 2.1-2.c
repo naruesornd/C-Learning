@@ -5,117 +5,130 @@
 #include <stdio.h>
 
 int power_sum(int base, int n);
+void show_val (int power);
 
 int main()
 {
-   /* unsigned variables */
+    printf("Ranges of Various Floating-point Types through Calculation:\n\n");
 
-   int i;
+    /* signed data types */
+    printf("Signed Data Types\n");
+    printf("---------------------------------------------\n");
+    printf("char:\n\n");
+    show_val(7);
 
-   /* unsigned char */
-   printf("unsigned char\n");
-   i = 8;
-   unsigned char var_c = power_sum(2, i);
-   for (i = 2; i < 10; ++i)
-   {
-       printf("%d\n", var_c++);
-   }
-   printf("\n");
+    printf("short:\n\n");
+    show_val(15);
 
-   /* unsigned short */
-   printf("---------------------------------------------------------\n");
-   printf("unsigned short\n");
-   i = 16;
-   unsigned short var_srt = power_sum(2, i);
-   for (i = 2; i < 10; ++i)
-   {
-       printf("%d\n", var_srt++);
-   }
-   printf("\n");
+    printf("int:\n\n");
+    show_val(31);
 
-   /* unsigned int */
-   printf("---------------------------------------------------------\n");
-   printf("unsigned int\n");
-   i = 32;
-   unsigned int var_int = power_sum(2, i);
-   for (i = 2; i < 10; ++i)
-   {
-       printf("%u\n", var_int++);
-   }
-   printf("\n");
+    printf("long:\n\n");
+    show_val(31);
 
-   /* unsigned long */
-   printf("---------------------------------------------------------\n");
-   printf("unsigned long\n");
-   i = 32;
-   unsigned int var_long = power_sum(2, i);
-   for (i = 2; i < 10; ++i)
-   {
-       printf("%u\n", var_long++);
-   }
-   printf("\n");
+    /*unsigned data types */
+    printf("\nUnsigned Data Types\n");
+    printf("---------------------------------------------\n");
+    printf("char:\n\n");
+    show_val(8);
+
+    printf("short:\n\n");
+    show_val(16);
+
+    printf("int:\n\n");
+    show_val(32);
+
+    printf("long:\n\n");
+    show_val(32);
 
 
-   /* signed variables */
-
-   /* signed char */
-   printf("---------------------------------------------------------\n");
-   printf("signed char\n");
-   i = 6;
-   signed char var_sg_c = power_sum(2, i);
-   for (i = 2; i < 10; ++i)
-   {
-       printf("%d\n", var_sg_c++);
-   }
-   printf("\n");
-
-   /* signed short */
-   printf("---------------------------------------------------------\n");
-   printf("signed short\n");
-   i = 14;
-   signed short var_sg_srt = power_sum(2, i);
-   for (i = 2; i < 10; ++i)
-   {
-       printf("%d\n", var_sg_srt++);
-   }
-   printf("\n");
-
-   /* signed int */
-   printf("---------------------------------------------------------\n");
-   printf("signed short\n");
-   i = 30;
-   signed int var_sg_int = power_sum(2, i);
-   for (i = 2; i < 10; ++i)
-   {
-       printf("%d\n", var_sg_int++);
-   }
-   printf("\n");
-
-   /* signed long */
-   printf("---------------------------------------------------------\n");
-   printf("signed long\n");
-   i = 30;
-   signed long var_sg_long = power_sum(2, i);
-   for (i = 2; i < 10; ++i)
-   {
-       printf("%ld\n", var_sg_long++);
-   }
-   printf("\n");
 }
 
 /* power_sum: raise base to n-th power and sum up; n => 0 */
 int power_sum(int base, int n)
 {
-printf("\nit is n which was i, when main invoked the func: %d\n\n", n);
-    int i, p, sum;
+    int i, p;
 
     p = 1;
-    sum = 0;
-    for (i = 1; i <= n ; ++i)
+    for (i = 1; i <= n; ++i)
     {
         p = p * base;
-        sum = sum + p;
     }
-    sum = sum - 2;
-    return sum;
+    return p-6;  //to go back six steps in order to show the better version of the range
+}
+
+/* show_val: to show value of each variable */
+void show_val (int pw)
+{
+   int i; //variable for for loop
+
+   char c;
+   short srt;
+   int in; //include long too
+
+   unsigned char u_c;
+   unsigned short u_srt;
+   unsigned int u_in; //include unsigned long too
+
+   c = power_sum(2, pw);
+   srt = power_sum(2, pw);
+   in = power_sum(2, pw);
+
+   u_c = power_sum(2, pw);
+   u_srt = power_sum(2, pw);
+   u_in = power_sum(2, pw);
+
+    /* signed data types */
+    if (pw == 7)
+    {
+         for (i = 0; i < 10; ++i)   /* to display increments of a value ten times */
+         {
+             printf("%d\n", ++c);
+         }
+    printf("--------------\n");
+    }
+    if (pw == 15)
+        {
+         for (i = 0; i < 10; ++i)
+         {
+             printf("%d\n", ++srt);
+         }
+    printf("--------------\n");
+    }
+     if (pw == 31)
+        {
+         for (i = 0; i < 10; ++i)
+         {
+             printf("%d\n", ++in);
+         }
+    printf("--------------\n");
+    }
+
+
+    /*unsigned data types */
+    if (pw == 8)
+        {
+         for (i = 0; i < 10; ++i)
+         {
+             printf("%u\n", ++u_c);
+         }
+    printf("--------------\n");
+    }
+    if (pw == 16)
+        {
+         for (i = 0; i < 10; ++i)
+         {
+             printf("%u\n", ++u_srt);
+         }
+    printf("--------------\n");
+    }
+    if (pw == 32)
+        {
+         for (i = 0; i < 10; ++i)
+         {
+             printf("%u\n", ++u_in);
+         }
+    printf("--------------\n");
+    }
+
 }
