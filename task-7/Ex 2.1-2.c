@@ -44,8 +44,8 @@ int main()
 
 }
 
-/* power_sum: raise base to n-th power and sum up; n => 0 */
-int power_sum(int base, int n)
+/* power: raise base to n-th power; n => 0 */
+int power(int base, int n)
 {
     int i, p;
 
@@ -70,13 +70,13 @@ void show_val (int pw)
    unsigned short u_srt;
    unsigned int u_in; //include unsigned long too
 
-   c = power_sum(2, pw);
-   srt = power_sum(2, pw);
-   in = power_sum(2, pw);
+   c = power(2, pw);
+   srt = power(2, pw);
+   in = power(2, pw);
 
-   u_c = power_sum(2, pw);
-   u_srt = power_sum(2, pw);
-   u_in = power_sum(2, pw);
+   u_c = power(2, pw);
+   u_srt = power(2, pw);
+   u_in = power(2, pw);
 
     /* signed data types */
     if (pw == 7)
