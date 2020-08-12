@@ -1,0 +1,10 @@
+Report-10
+
+1. Read sections 2.11-2.12
+Read.I learnt about conditional expressions of which "if else" function can also be written as "expr1 ? expr2 : expr3". Furthermore, I learnt about the precedence and order of evaluation. For instance, "*", "/", "%" has the same precedence and starts from left to right, but their precedence is higher than that of binary "+" and "-". Therefore, if the calculation is made based on the these operators written on the same line of a program and without the help of using parentheses, the one with higher precedence (like *, / or %) will be calculated first before the one with lower precedence (like binary + or -). 
+
+2. Do exercises from these sections.
+Done.
+
+Naruesorn Dechnorachai
+11/08/2020
