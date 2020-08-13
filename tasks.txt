@@ -1,8 +1,19 @@
+11 task
+1. Download and install VirtualBox. Install Debian with a graphical interface as a guest OS. Also you can install other
+programs there.
+2. Read about a packages manager apt. See description the most used commands:
+apt -h
+and here https://hostadvice.com/how-to/how-to-use-the-apt-command-to-manage-ubuntu-packages/
+3. Install git and CodeBlocks to Debian.
+4. Copy the repo there. We will try to continue to work in Linux and less in Windows.
+Due date
+note: current
+
 10 task
 1. Read sections 2.11-2.12
 2. Do exercises from these sections.
 Due date
-note: current
+note: first date 20200813, to check
 
 09 task
 1. Read sections 2.9-2.10
