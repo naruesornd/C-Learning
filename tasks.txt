@@ -1,6 +1,5 @@
 11 task
-1. Download and install VirtualBox. Install Debian with a graphical interface as a guest OS. Also you can install other
-programs there.
+1. Download and install VirtualBox. Install Debian with a graphical interface (for instance, xfce) as a guest OS. Also you can install other programs there.
 2. Read about a packages manager apt. See description the most used commands:
 apt -h
 and here https://hostadvice.com/how-to/how-to-use-the-apt-command-to-manage-ubuntu-packages/
