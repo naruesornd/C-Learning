@@ -6,7 +6,7 @@ apt -h
 and here https://hostadvice.com/how-to/how-to-use-the-apt-command-to-manage-ubuntu-packages/
 3. Install git and CodeBlocks to Debian.
 4. Copy the repo there. We will try to continue to work in Linux and less in Windows.
-Due date
+Due date 20200823
 note: current
 
 10 task
