@@ -1,0 +1,24 @@
+Report-11	
+
+1. Download and install VirtualBox.	
+Downloaded and Installed.
+
+2. Download and install Debian with a graphical interface (for instance, xfce) as a guest OS.
+Downloaded and Installed.
+
+3. Read about a packages manager apt. See description the most used commands:
+apt -h
+and here https://hostadvice.com/how-to/how-to-use-the-apt-command-to-manage-ubuntu-packages/
+Read. Apt is a package manager software which is responsible for downloading, installing. updating nad removing packages from one's system on Debian, Ubutunu nad related Linux distributions. In Debian distributions, packages are downloaded via Apt pachkage manager.
+
+
+4. Install git and CodeBlocks to Debian via terminal (console, cli).
+Also you can install other programs there.
+Installed.
+
+5. Copy the repo there. We will try to continue to work in Linux and less in Windows.
+Copied.
+
+
+Naruesorn Dechnorachai
+19/8/2020
