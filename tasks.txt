@@ -14,7 +14,7 @@ and here https://hostadvice.com/how-to/how-to-use-the-apt-command-to-manage-ubun
 Also you can install other programs there.
 5. Copy the repo there. We will try to continue to work in Linux and less in Windows.
 Due date 20200823
-note: first date 20200829
+note: first date 20200829, 20200831 done
 
 10 task
 1. Read sections 2.11-2.12
