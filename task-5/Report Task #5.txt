@@ -1,0 +1,12 @@
+Report Task #5
+
+1. Read section 1.10.
+Read. In section 1.10 allowed me to explore that declarations and variables can be written in another form with usage of "extern".
+Also,  I leanrt the difference between definition and declaration.
+
+2. Do exercises from these section.
+Done. Exercises are quite hard, especially ex 1.20 and ex 1.21 as I did not what the questions wanted.
+However, I think what I did might the most suitable so far.
+
+6/5/2020
+Naruesorn Dechnorachai 
