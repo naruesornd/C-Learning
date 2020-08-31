@@ -1,3 +1,9 @@
+12 task
+1. Read sections 3-3.4
+2. Do exercises from these sections.
+Due date 20200906
+note: current
+
 11 task
 1. Download and install VirtualBox.
 2. Download and install Debian with a graphical interface (for instance, xfce) as a guest OS.
@@ -8,7 +14,7 @@ and here https://hostadvice.com/how-to/how-to-use-the-apt-command-to-manage-ubun
 Also you can install other programs there.
 5. Copy the repo there. We will try to continue to work in Linux and less in Windows.
 Due date 20200823
-note: current
+note: first date 20200829
 
 10 task
 1. Read sections 2.11-2.12
