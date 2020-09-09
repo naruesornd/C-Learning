@@ -13,27 +13,24 @@ int getline (char line[], int maxline);
 
 int main()
 {
-    char s[MAXLINE];
-    char t[MAXLINE];
+    char s[MAXLINE];  // modified output
+    char t[MAXLINE];  // original input
 
     getline(t, MAXLINE);
 
     escape(s,t);
 
-    printf("%s", s);
+    printf("Escape: %s\n", s);
 }
 
 /* getline: red a line into s, return length */
-int getline(char s[]; int lim)
+int getline(char s[], int lim)
 {
     int c, i;
 
-    for(int i = 0; i < lim-1 && (c = getchar()) != EOF && c != '\n'; ++i)
+    for(i = 0; i < lim-1 && (c = getchar()) != EOF; ++i)
         s[i] = c;
-    if (c == '\n'){
-        s[i] = c;
-        ++i;
-    }
+
     s[i] = '\0';
     return i;
 }
@@ -43,22 +40,25 @@ void escape(char s[], char t[])
 {
     int i, j;
 
-    for(i = j = 0; t[i] != '/0'; i++)
+    for(i = j = 0; t[i] != '\0'; ++i){
         switch (t[i]){
-        case '\n':            //newline
+        case '\n':         // newlines
             s[j] = '\\';
             j++;
             s[j] = 'n';
+            j++;
             break;
-        case '\t':            //tab
+        case '\t':        // tabs
             s[j] = '\\';
             j++;
             s[j] = 't';
+            j++;
             break;
-        default:             //all the rest characters
+        default:         // other characters
             s[j] = t[i];
+            j++;
             break;
         }
-        ++j;
-        ++i;
+    }
+    s[j] = '\0';        // termination of line
 }
