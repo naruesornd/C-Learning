@@ -1,8 +1,14 @@
+13 task
+1. Read sections 3.5-3.8
+2. Do exercises from these sections.
+Due date 20200920
+note: current
+
 12 task
 1. Read sections 3-3.4
 2. Do exercises from these sections.
 Due date 20200906
-note: current
+note: first date 20200909
 
 11 task
 1. Download and install VirtualBox.
