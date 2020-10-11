@@ -30,5 +30,3 @@ int main()
     printf("Maximum int   = %u\n", UINT_MAX);
     printf("Maximum long  = %lu\n", ULONG_MAX);
 }
-
-

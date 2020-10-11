@@ -13,4 +13,3 @@ int strlen(char s[])
         ++i;
     return i;
 }
-
