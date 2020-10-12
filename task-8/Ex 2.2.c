@@ -3,13 +3,12 @@
 
 #define MAXLINE 1000
 
-int getline(char line[],int maxline);
-void copy(char to[],char from[]);
-
+int getline(char line[], int maxline);
+void copy(char to[], char from[]);
 
 int main()
 {
-    int len,max;
+    int len, max;
     char line[MAXLINE], longest[MAXLINE];
 
     max = 0;
@@ -18,7 +17,7 @@ int main()
         if (len > max)
         {
             max = len;
-            copy(longest,line);
+            copy(longest, line);
         }
     }
     if (max > 0)
@@ -31,7 +30,6 @@ int main()
 int getline(char s[], int lim)
 {
     /* for loop from getline function in Chapter 1: for (i=0; i <lim-1 && (c=getchar())!=EOF && c!='\n ; ++i) */
-
     int c, i;
 
     c = 0;
@@ -41,13 +39,11 @@ int getline(char s[], int lim)
         c = getchar();
         if (c == EOF)
         {
-            lim = 0;
-            // Kovbas. consider to use here break;
+            ;
         }
         else if (c == '\n')
         {
-            lim = 0;
-            // Kovbas. consider to use here break;
+            ;
         }
         else
         {
@@ -64,7 +60,6 @@ int getline(char s[], int lim)
     s[i] = '\0';
 
     return i;
-
 }
 
 /* copy: copy 'from' into 'to'; assume to is big enough */
@@ -74,5 +69,5 @@ void copy(char to[],char from[])
 
     i = 0;
     while((to[i] = from[i]) != '\0')
-    ++i;
+    	++i;
 }
