@@ -1,0 +1,14 @@
+report-8
+
+1. Read sections 2.6-2.8
+Read. I have learnt about what relational, equality and logical operators are and how precedent each opeartor is. For instance, relational operators (> >= < <=) have the same precedence, but they are below equality operators (== !=) and arithmetic operators.
+Also I have learnt about type conversions which means when an operator has operands of different types, they are converted to a common type following a small number of rules. I also got to know the rule of it too such as expressions that do not make sense, like using float as a subscript, are disallowed. Expressions that might lose information, like assigning a longer integer type to a shorter, may draw a warning, but they are not illegal. Furthermore, I learnt standard header <ctype.h> provides a family of functions for tests and conversions that are independent of character set and a bit of <math.h>.
+On top of them, I have learnt the difference between ++n and n++  as well how to write increments more compact. 
+Ex. s[i] = c;    to    s[i++] =c;
+     ++i;  
+ 
+2. Do exercises from these sections.
+Done. I used the programme from section 1.9 to perform the output for functions that needed to be written in the exercises.
+
+Naruesorn Dechnorachai
+24/6/2020
